@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./demo.css">
+    <script src="./demo.js"></script>
+
+<link rel="stylesheet" href="./cq-grid-addon.min.css">
+<script src="https://unpkg.com/cq-prolyfill@0.4.0/cq-prolyfill.min.js"></script>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Settings</legend>
+    </fieldset>
+    <div class="wrap">
+        <h1>Mix and Match</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <p>This example demonstrates a 50%/50% split on extra small devices and 75%/25% split on larger devices.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="cq-col-6 cq-col-sm-9 bg-success">cq-col-6 cq-col-sm-9</div>
+                <div class="cq-col-6 cq-col-sm-3 bg-warning">cq-col-6 cq-col-sm-3</div>
+            </div>
+        </div>
+        <br>
+        <p>This example demonstrates a 58%/42% split on extra small, small and medium devices and 66.3%/33.3% split on large
+            and xlarge devices.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="cq-col-7 cq-col-lg-8 bg-success">cq-col-7 cq-col-lg-8</div>
+                <div class="cq-col-5 cq-col-lg-4 bg-warning">cq-col-5 cq-col-lg-4</div>
+            </div>
+        </div>
+        <br>
+        <p>This example demonstrates a 25%/75% split on small devices, a 50%/50% split on medium devices, and a 33%/66% split
+            on large and xlarge devices. On extra small devices, it will automatically stack (100%).</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="cq-col-sm-3 cq-col-md-6 cq-col-lg-4 bg-success">cq-col-sm-3 cq-col-md-6 cq-col-lg-4</div>
+                <div class="cq-col-sm-9 cq-col-md-6 cq-col-lg-8 bg-warning">cq-col-sm-9 cq-col-md-6 cq-col-lg-8</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
